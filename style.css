@@ -1,0 +1,25 @@
+/* Video background styling */
+#background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -1; /* Đảm bảo video ở phía sau mọi nội dung */
+    object-fit: cover; /* Video bao phủ toàn bộ nền */
+  }
+  
+  /* Table and content on top of the background */
+  table {
+    position: relative;
+    z-index: 1;
+    margin: 50px auto;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none
+  
